@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import Artyom from 'artyom.js';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +9,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'recetas-ihc';
+  jarvis = new Artyom();
+
+  constructor(){
+    this.jarvis.say("Hello World !");
+  }
+
 }
