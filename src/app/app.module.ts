@@ -9,6 +9,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { PasosComponent } from './components/pasos/pasos.component';
 import { IngredientesComponent } from './components/ingredientes/ingredientes.component';
 import { DataTablesModule } from 'angular-datatables';
+import { BusquedaComponent } from './components/busqueda/busqueda.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { DataTablesModule } from 'angular-datatables';
     NavbarComponent,
     PasosComponent,
     IngredientesComponent,
+    BusquedaComponent,
   ],
   imports: [
     BrowserModule,
