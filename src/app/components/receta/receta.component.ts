@@ -8,8 +8,8 @@ import { RecetasService } from '../../services/recetas.service';
   styleUrls: ['./receta.component.scss']
 })
 export class RecetaComponent implements OnInit {
-
-  recetaSelected: number;
+  receta: any;
+  recetaSelected: string;
 
   constructor(
     private router: Router,
@@ -19,11 +19,12 @@ export class RecetaComponent implements OnInit {
   ngOnInit() {
     this.route.paramMap.subscribe(params => {
       if (params.has("id")) {
-        this.recetaSelected = parseInt(params.get('id'));
+        this.recetaSelected = params.get('id');
         console.log(this.recetaSelected);
         this.recetasService.getAll()
           .subscribe(resp => {
-            console.log(resp);
+            this.receta = Array.from(resp).filter(rec => rec.id==this.recetaSelected)[0]
+            console.log(this.receta)
         });
       }
     });
