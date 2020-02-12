@@ -12,7 +12,6 @@ export class PasosComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log("este es el hijo pasado por receta a ingrediente ",this.receta)
   }
 
 }

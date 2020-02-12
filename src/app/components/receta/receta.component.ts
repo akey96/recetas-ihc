@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { RecetasService } from '../../services/recetas.service';
+// import { ArtyomService } from '../../services/artyom.service';
+import { ArtyomUtil } from '../../utils/artyom.util';
 
 @Component({
   selector: 'app-receta',
@@ -10,24 +12,44 @@ import { RecetasService } from '../../services/recetas.service';
 export class RecetaComponent implements OnInit {
   receta: any;
   recetaSelected: string;
-
+  
   constructor(
     private router: Router,
     private route: ActivatedRoute,
-    private recetasService: RecetasService, ){
+    private recetasService: RecetasService ){
+
       this.route.paramMap.subscribe(params => {
         if (params.has("id")) {
           this.recetaSelected = params.get('id');
-          console.log(this.recetaSelected);
           this.recetasService.getAll()
             .subscribe(resp => {
-              this.receta = Array.from(resp).filter(rec => rec.id==this.recetaSelected)[0]
-              console.log(this.receta)
+              this.receta = Array.from(resp).filter(rec => rec.id==this.recetaSelected)[0];
           });
         }
       });
     }
 
-  ngOnInit() {
+  leerIngredientes(){
+    let ingredientes = Array.from(this.receta.ingredientes);
+    for(let i=0; i<ingredientes.length; i++){
+      ArtyomUtil.getInstance().getJarvis().say(ingredientes[i]);
+    }
   }
+
+  ngOnInit() {
+    setTimeout(() => {
+      ArtyomUtil.getInstance().start();
+    }, 250);
+
+    ArtyomUtil.getInstance().addCommands([
+      {
+				indexes:["leer ingredientes"],
+				action: (i) => {
+          console.log('entro a leer ingredientes', this.receta);
+          ArtyomUtil.getInstance().sayArray(this.receta.ingredientes);        
+        }
+      }]);
+  }
+
+  
 }
