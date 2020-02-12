@@ -8,6 +8,8 @@ import { RecetaComponent } from './components/receta/receta.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { PasosComponent } from './components/pasos/pasos.component';
 import { IngredientesComponent } from './components/ingredientes/ingredientes.component';
+import { DataTablesModule } from 'angular-datatables';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { IngredientesComponent } from './components/ingredientes/ingredientes.co
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    DataTablesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
