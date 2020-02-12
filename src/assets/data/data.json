@@ -20,67 +20,67 @@
         "pasos": [
             {
                 "Descripcion": "Activar la levadura con una cucharada de harina disuelta en ½ taza de agua. Reservar.",
-                "imagen": "pizza_1",
+                "imagen": "Pizza/pizza_1.gif",
                 "numero": 1
             },
             {
                 "Descripcion": "En un recipiente, verter la harina y mezclar con la sal.",
-                "imagen": "pizza_2",
+                "imagen": "Pizza/pizza_2.gif",
                 "numero": 2
             },
             {
                 "Descripcion": "Agregar poco a poco el agua hasta que se vuelva una masa homogénea.",
-                "imagen": "pizza_2",
+                "imagen": "Pizza/pizza_2.gif",
                 "numero": 3
             },
             {
                 "Descripcion": "Incorporar la levadura activada y trabajar por 10 minutos o hasta que quede lisa.",
-                "imagen": "pizza_3",
+                "imagen": "Pizza/pizza_3.gif",
                 "numero": 4
             },
             {
                 "Descripcion": "Hacer una bola, cubrir con plástico transparente y dejar reposar por una hora y media.",
-                "imagen": "pizza_3",
+                "imagen": "Pizza/pizza_3.gif",
                 "numero": 5
             },
             {
                 "Descripcion": "Una vez doblado su tamaño, trabajar en una superficie enharinada y hacer una bola con textura tersa.",
-                "imagen": "pizza_4",
+                "imagen": "Pizza/pizza_4.gif",
                 "numero": 6
             },
             {
                 "Descripcion": "Dejar reposar por media hora.",
-                "imagen": "pizza_5",
+                "imagen": "Pizza/pizza_5.gif",
                 "numero": 7
             },
             {
                 "Descripcion": "Hacer la salsa: licuar todos los ingredientes y poner a cocinar a fuego alto hasta que reduzca a la mitad. Debe quedar muy espesa, con una textura aterciopelada.",
-                "imagen": "pizza_5",
+                "imagen": "Pizza/pizza_5.gif",
                 "numero": 8
             },
             {
                 "Descripcion": "Extender la masa con un rodillo y colocarla en una charola de forma que quede muy delgada pero sin romperse.",
-                "imagen": "pizza_6",
+                "imagen": "Pizza/pizza_6.gif",
                 "numero": 9
             },
             {
                 "Descripcion": "Con una cuchara, verter la salsa sobre la masa y formar una capa delgada. Dejar las orillas sin salsa.",
-                "imagen": "pizza_6",
+                "imagen": "Pizza/pizza_6.gif",
                 "numero": 10
             },
             {
                 "Descripcion": "Hasta arriba, poner el queso mozzarella en rodajas y las anchoas.",
-                "imagen": "pizza_7",
+                "imagen": "Pizza/pizza_7.gif",
                 "numero": 11
             },
             {
                 "Descripcion": "Hornear durante 15 minutos a 200ºC o hasta que dore en las orillas.",
-                "imagen": "pizza_7",
+                "imagen": "Pizza/pizza_7.gif",
                 "numero": 12
             },
             {
                 "Descripcion": "Sacar del horno y decorar con las hojas de albahaca.",
-                "imagen": "pizza_13",
+                "imagen": "Pizza/pizza_13.gif",
                 "numero": 13
             }
         ]
@@ -98,32 +98,32 @@
         "pasos": [
             {
                 "Descripcion": "Empieza con la decoración de sal de las copas, lo que se conoce como escarchar. Pasa un trocito de lima por el borde para que se moje, mejor si es sobre todo por la parte exterior y finito para que después no quede una capa gruesa de sal.",
-                "imagen": "margarita_1",
+                "imagen": "Margarita/margarita_1.gif",
                 "numero": 1
             },
             {
                 "Descripcion": "Pon abundante sal en un plato y en forma de círculo, haciéndolo coincidir más o menos con el diámetro de la copa. Pasa las copas por encima de la sal para que quede pegada.",
-                "imagen": "margarita_1",
+                "imagen": "Margarita/margarita_1.gif",
                 "numero": 2
             },
             {
                 "Descripcion": "Exprime la lima para extraer su zumo, puedes utilizar un prensador de limas que resulta de lo más útil pero también te sirve cualquier exprimidor que utilices para limones o naranjas. Hay quien prefiere colarlo pero a mi me gusta más sin colar.",
-                "imagen": "margarita_2",
+                "imagen": "Margarita/margarita_2.gif",
                 "numero": 3
             },
             {
                 "Descripcion": "Si dispones de coctelera es lo ideal sobre todo si vas a preparar más de un coctel margarita aunque también puedes hacerlo en cualquier otro recipiente que puedas cerrar y agitar.",
-                "imagen": "margarita_3",
+                "imagen": "Margarita/margarita_3.gif",
                 "numero": 4
             },
             {
                 "Descripcion": "Echa en la coctelera unos hielos hasta la mitad y vierte el zumo de lima junto con el tequila y el triple seco. Ciérrala y agita muy bien hasta que la coctelera o el recipiente estén bien fríos.",
-                "imagen": "margarita_4",
+                "imagen": "Margarita/margarita_4.gif",
                 "numero": 5
             },
             {
                 "Descripcion": "Sirve el coctel margarita en las copas que habíamos decorado pero sin dejar que caiga el hielo.",
-                "imagen": "margarita_4",
+                "imagen": "Margarita/margarita_4.gif",
                 "numero": 6
             }
         ]
@@ -152,32 +152,32 @@
         "pasos": [
             {
                 "Descripcion": "Pon a remojo las placas de lasaña. Sumérgelas en un recipiente con agua, normalmente durante 10-15 minutos (te lo indicará el paquete).",
-                "imagen": "lasana_bolonesa_1",
+                "imagen": "Lasana a la boloñesa/lasana_bolonesa_1.gif",
                 "numero": 1
             },
             {
                 "Descripcion": "Pica finamente la cebolla y la zanahoria.",
-                "imagen": "lasana_bolonesa_2",
+                "imagen": "Lasana a la boloñesa/lasana_bolonesa_2.gif",
                 "numero": 2
             },
             {
                 "Descripcion": "En una sartén, añade aceite (que casi cubra el fondo) y añade la cebolla y la zanahoria. Rehoga a fuego medio hasta que la cebolla empiece a mostrarse transparente.",
-                "imagen": "lasana_bolonesa_3",
+                "imagen": "Lasana a la boloñesa/lasana_bolonesa_3.gif",
                 "numero": 3
             },
             {
                 "Descripcion": "Añade la carne picada, mézclala con el resto de ingredientes y sepárala con la espátula. Añade sal, pimienta y orégano al gusto.",
-                "imagen": "lasana_bolonesa_4",
+                "imagen": "Lasana a la boloñesa/lasana_bolonesa_4.gif",
                 "numero": 4
             },
             {
                 "Descripcion": "Cuando la carne deje de estar rosada, añade el vaso de vino blanco y deja que se evapore el alcohol.",
-                "imagen": "lasana_bolonesa_5",
+                "imagen": "Lasana a la boloñesa/lasana_bolonesa_5.gif",
                 "numero": 5
             },
             {
                 "Descripcion": "Añade el tomate y la leche, y déjalo cocer todo durante 20 minutos, para que los sabores se fusionen y la textura sea suave.",
-                "imagen": "lasana_bolonesa_6",
+                "imagen": "Lasana a la boloñesa/lasana_bolonesa_6.gif",
                 "numero": 6
             }
         ]
@@ -196,12 +196,12 @@
         "pasos": [
             {
                 "Descripcion": "Machacar la menta con el limon y el azúcar.",
-                "imagen": "mojito_1",
+                "imagen": "Mojito/mojito_1.gif",
                 "numero": 1
             },
             {
                 "Descripcion": "Agregar hielo y ron por ultimo la soda, y mas hojas de menta fresca.",
-                "imagen": "mojito_2",
+                "imagen": "Mojito/mojito_2.gif",
                 "numero": 2
             }
         ]
@@ -218,12 +218,12 @@
         "pasos": [
             {
                 "Descripcion": "En una jarra agregar hielo, vodka, pulpa de maracuyá y jarabe de maracuyá.",
-                "imagen": "caipi_1",
+                "imagen": "Caipiroshka de Maracuyá/caipi_1.gif",
                 "numero": 1
             },
             {
                 "Descripcion": "Revolver bien y servir.",
-                "imagen": "caipi_2",
+                "imagen": "Caipiroshka de Maracuyá/caipi_2.gif",
                 "numero": 2
             }
         ]
@@ -249,27 +249,27 @@
         "pasos": [
             {
                 "Descripcion": "Colocar la tortilla en la sartén.",
-                "imagen": "quesadillas_1",
+                "imagen": "Quesadillas/quesadillas_1.gif",
                 "numero": 1
             },
             {
                 "Descripcion": "Colocar la mitad del cheddar y el queso ahumado rallados, seguido por el queso mozzarella. Luego agregar la mitad del resto de los ingredientes; la mitad de los frijoles negros, la mitad del maíz, el aguacate, el tomate, unas rodajas de cebolla de verdeo y el chile si está utilizando, repetir con los mismos quesos y colocar otra tortilla en la parte superior.",
-                "imagen": "quesadillas2_2",
+                "imagen": "Quesadillas/quesadillas_2.gif",
                 "numero": 2
             },
             {
                 "Descripcion": "Voltear y dorar la tortilla en el otro lado.",
-                "imagen": "quesadillas_3",
+                "imagen": "Quesadillas/quesadillas_3.gif",
                 "numero": 3
             },
             {
                 "Descripcion": "Repita con el resto de ingredientes para dos quesadillas con queso.",
-                "imagen": "quesadillas_2",
+                "imagen": "Quesadillas/quesadillas_2.gif",
                 "numero": 4
             },
             {
                 "Descripcion": "Servir con una cucharada de crema agria, hojas de cilantro y una rodaja de limón.",
-                "imagen": "quesadillas_2",
+                "imagen": "Quesadillas/quesadillas_2.gif",
                 "numero": 5
             }
         ]
@@ -293,32 +293,32 @@
         "pasos": [
             {
                 "Descripcion": "En una sartén con un toque de oliva rehogar la cebolla y el ajo hasta trasparentar. Agregar la salsa de tomate triturado, condimentar bien, agregar la albahaca picada y cocinar por 30 minutos.",
-                "imagen": "lasana_verduras_1",
+                "imagen": "Lasaña de Verduras/lasana_verduras_1.gif",
                 "numero": 1
             },
             {
                 "Descripcion": "Grillar los vegetales con un toque de oliva por 2 o 3 minutos por lado. Retirar sobre papel absorbente para eliminar el exceso de humedad.",
-                "imagen": "lasana_verduras_2",
+                "imagen": "Lasaña de Verduras/lasana_verduras_2.gif",
                 "numero": 2
             },
             {
                 "Descripcion": "En un bowl mezclar la ricota con el parmesano y el huevo hasta lograr una preparacion homogenea",
-                "imagen": "lasana_verduras_3",
+                "imagen": "Lasaña de Verduras/lasana_verduras_3.gif",
                 "numero": 2
             },
             {
                 "Descripcion": "En placa alta ir intercalando salsa, vegetales grillados, la mezcla de ricota y mozzarella hasta agotar los ingredientes (reservar un poco de mozzarella para más adelante).",
-                "imagen": "lasana_verduras_4",
+                "imagen": "Lasaña de Verduras/lasana_verduras_4.gif",
                 "numero": 3
             },
             {
                 "Descripcion": "Tapar con papel aluminio y cocinar en horno a 180ª precalentado por 30 minutos. Pasado ese tiempo quitar el papel aluminio y cocinar 20 minutos más.",
-                "imagen": "lasana_verduras_5",
+                "imagen": "Lasaña de Verduras/lasana_verduras_5.gif",
                 "numero": 4
             },
             {
                 "Descripcion": "Luego colocar mozzarella sobre la superficie y llevar 5 minutos hasta gratinar.",
-                "imagen": "lasana_verduras_6",
+                "imagen": "Lasaña de Verduras/lasana_verduras_6.gif",
                 "numero": 4
             }
         ]
@@ -339,17 +339,17 @@
         "pasos": [
             {
                 "Descripcion": "Mezclar en un bowl el queso crema, el azúcar y la esencia de vainilla. Después mezclar las fresas trituradas. Una vez incorporado agregar la crema batida y crema agria.",
-                "imagen": "tabletas_cheesecake_1",
+                "imagen": "Tabletas de Cheesecake Heladas/tabletas_cheesecake_1.gif",
                 "numero": 1
             },
             {
                 "Descripcion": "En otro bowl mezclar las galletas con la manteca y colocarlos en un molde con papel manteca. Agregar la mezcla de cheesecake por encima y llevar al freezer hasta que quede firme.",
-                "imagen": "tabletas_cheesecake_2",
+                "imagen": "Tabletas de Cheesecake Heladas/tabletas_cheesecake_2.gif",
                 "numero": 2
             },
             {
                 "Descripcion": "Cortar en cuadrados y derretir el chocolate con el aceite de coco y remojar los bocadis. Llevar a la heladera por 10 minutos.",
-                "imagen": "tabletas_cheesecake_3",
+                "imagen": "Tabletas de Cheesecake Heladas/tabletas_cheesecake_3.gif",
                 "numero": 3
             }
         ]
@@ -370,27 +370,27 @@
         "pasos": [
             {
                 "Descripcion": "En un bowl mezclar el puré de papas junto con los 2 huevos el perejil picado, sal y pimienta.",
-                "imagen": "croquetas_papa_1",
+                "imagen": "Croquetas de Papa/croquetas_papa_1.gif",
                 "numero": 1
             },
             {
                 "Descripcion": "Cortar la panceta ahumada en tacos y sellar en sartén hasta dorar.",
-                "imagen": "croquetas_papa_2",
+                "imagen": "Croquetas de Papa/croquetas_papa_2.gif",
                 "numero": 2
             },
             {
                 "Descripcion": "Formar las bombas con el puré y rellenando con mozzarella y un taco de panceta dorada.",
-                "imagen": "croquetas_papa_3",
+                "imagen": "Croquetas de Papa/croquetas_papa_3.gif",
                 "numero": 3
             },
             {
                 "Descripcion": "Pasar por harina, huevo batido y pan rallado.",
-                "imagen": "croquetas_papa_4",
+                "imagen": "Croquetas de Papa/croquetas_papa_4.gif",
                 "numero": 4
             },
             {
                 "Descripcion": "Llevar a freír en abundante aceite hasta dorar.",
-                "imagen": "croquetas_papa_5",
+                "imagen": "Croquetas de Papa/croquetas_papa_5.gif",
                 "numero": 5
             }
         ]
