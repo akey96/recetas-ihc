@@ -1,0 +1,87 @@
+[
+    {
+        "nombre": "Pizza",
+        "ingredientes": [
+            "250 gramos de harina",
+            "120 mililitros de agua",
+            "30 mililitros de aceite de oliva",
+            "2 gramos de levadura en polvo",
+            "3 gramos de sal",
+            "4 jitomates",
+            "¼ de cebolla",
+            "1 diente de ajo",
+            "1 pizca de albahaca seca",
+            "1 pizca de romero molido",
+            "1 pizca de orégano molido",
+            "c/s de sal",
+            "200 gramos de queso mozzarella"
+        ],
+        "pasos": [
+            {
+                "Descripcion": "Activar la levadura con una cucharada de harina disuelta en ½ taza de agua. Reservar.",
+                "imagen": "pizza_1",
+                "numero": 1
+            },
+            {
+                "Descripcion": "En un recipiente, verter la harina y mezclar con la sal.",
+                "imagen": "pizza_2",
+                "numero": 2
+            },
+            {
+                "Descripcion": "Agregar poco a poco el agua hasta que se vuelva una masa homogénea.",
+                "imagen": "pizza_3",
+                "numero": 3
+            },
+            {
+                "Descripcion": "Incorporar la levadura activada y trabajar por 10 minutos o hasta que quede lisa.",
+                "imagen": "pizza_4",
+                "numero": 4
+            },
+            {
+                "Descripcion": "Hacer una bola, cubrir con plástico transparente y dejar reposar por una hora y media.",
+                "imagen": "pizza_5",
+                "numero": 5
+            },
+            {
+                "Descripcion": "Una vez doblado su tamaño, trabajar en una superficie enharinada y hacer una bola con textura tersa.",
+                "imagen": "pizza_6",
+                "numero": 6
+            },
+            {
+                "Descripcion": "Dejar reposar por media hora.",
+                "imagen": "pizza_7",
+                "numero": 7
+            },
+            {
+                "Descripcion": "Hacer la salsa: licuar todos los ingredientes y poner a cocinar a fuego alto hasta que reduzca a la mitad. Debe quedar muy espesa, con una textura aterciopelada.",
+                "imagen": "pizza_8",
+                "numero": 8
+            },
+            {
+                "Descripcion": "Extender la masa con un rodillo y colocarla en una charola de forma que quede muy delgada pero sin romperse.",
+                "imagen": "pizza_9",
+                "numero": 9
+            },
+            {
+                "Descripcion": "Con una cuchara, verter la salsa sobre la masa y formar una capa delgada. Dejar las orillas sin salsa.",
+                "imagen": "pizza_10",
+                "numero": 10
+            },
+            {
+                "Descripcion": "Hasta arriba, poner el queso mozzarella en rodajas y las anchoas.",
+                "imagen": "pizza_11",
+                "numero": 11
+            },
+            {
+                "Descripcion": "Hornear durante 15 minutos a 200ºC o hasta que dore en las orillas.",
+                "imagen": "pizza_12",
+                "numero": 12
+            },
+            {
+                "Descripcion": "Sacar del horno y decorar con las hojas de albahaca.",
+                "imagen": "pizza_13",
+                "numero": 13
+            }
+        ]
+    }
+]
