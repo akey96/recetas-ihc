@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-pasos',
@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PasosComponent implements OnInit {
 
+  @Input() receta: any;
+
   constructor() { }
 
   ngOnInit() {
+    console.log("este es el hijo pasado por receta a ingrediente ",this.receta)
   }
 
 }

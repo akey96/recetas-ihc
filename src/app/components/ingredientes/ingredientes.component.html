@@ -1,29 +1,21 @@
 <div class="container-fluid">
   <div id="ingrediente" class="row">
     <div class="col-md-7">
-      <h1 class="text-center"><strong>Sopa de mani</strong></h1>
+      <h1 class="text-center"><strong>{{this.receta.nombre}}</strong></h1>
       <h2 class="text-center"> <img class="imagen-pequena" src="/assets/images/velocimetro.svg"> Medio | 35 min <img
           class="imagen-pequena" src="/assets/images/reloj.svg"></h2>
       <br>
       <h3><strong>Ingredientes:</strong></h3>
       <br>
-      <ul class="row">
-        <div class="col-md-6">
-          <li>Cras justo odio</li>
-          <li>Dapibus ac facilisis in</li>
-          <li>Morbi leo risus</li>
-          <li>Porta ac consectetur ac</li>
-          <li>Vestibulum at eros</li>
+      <ul  class="row">
+        <div *ngFor="let rc of receta.ingredientes; index as i"  class="col-md-6">
+          <li *ngIf="i<receta.ingredientes.length/2" >{{rc}}</li>
+        </div>
+        
+        <div *ngFor="let rc of receta.ingredientes; index as i"  class="col-md-6">
+          <li *ngIf="i>receta.ingredientes.length/2" >{{rc}}</li>
+        </div>
       
-
-        </div>
-        <div class="col-md-6">
-          <li>Dapibus ac facilisis in</li>
-          <li>Morbi leo risus</li>
-          <li>Porta ac consectetur ac</li>
-          <li>Vestibulum at eros</li>
-          <li>Cras justo odio</li>
-        </div>
 
       </ul>
     </div>
@@ -38,7 +30,6 @@
     </div>
 
   </div>
-  <h1>Ingredientes</h1>
 
 
 </div>
