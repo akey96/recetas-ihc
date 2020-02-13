@@ -43,10 +43,17 @@ export class RecetaComponent implements OnInit {
 
     ArtyomUtil.getInstance().addCommands([
       {
-				indexes:["leer ingredientes"],
+				indexes:["leer ingredientes", 'atrás', 'alto'],
 				action: (i) => {
-          console.log('entro a leer ingredientes', this.receta);
-          ArtyomUtil.getInstance().sayArray(this.receta.ingredientes);        
+          if(i==0){
+            console.log('entro a leer ingredientes', this.receta);
+            ArtyomUtil.getInstance().sayArray(this.receta.ingredientes);          
+          } else if (i==1){
+            window.location = '';
+          } else if (i==2){
+            ArtyomUtil.getInstance().getJarvis().shutUp();
+          }
+          
         }
       }]);
   }
