@@ -5,7 +5,7 @@ import { BusquedaComponent } from './components/busqueda/busqueda.component';
 
 const routes: Routes = [
   { path: 'receta/:id', component: RecetaComponent },
-  { path: 'busqueda', component: BusquedaComponent },
+  { path: '', component: BusquedaComponent },
 ];
 
 @NgModule({

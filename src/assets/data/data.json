@@ -394,5 +394,126 @@
                 "numero": 5
             }
         ]
+    },
+    {
+        "id": "52a2d74f-44e5-44be-b5c7-3a801af3ad90",
+        "nombre": "Lasaña de Verduras",
+        "ingredientes": [
+            "3 berenjenas cortadas a lo largo",
+            "3 zucchini cortadas a lo largo",
+            "1 cebolla picada",
+            "1 lt. de tomate triturado",
+            "3 ajos picados",
+            "1 ½ taza ricota",
+            "¼ de queso parmesano",
+            "3 tazas de mozzarella rallada",
+            "2 cdas. de albahaca picada",
+            "1 huevo grande",
+            "Sal, pimienta y oliva"
+        ],
+        "pasos": [
+            {
+                "Descripcion": "En una sartén con un toque de oliva rehogar la cebolla y el ajo hasta trasparentar. Agregar la salsa de tomate triturado, condimentar bien, agregar la albahaca picada y cocinar por 30 minutos.",
+                "imagen": "Lasaña de Verduras/lasana_verduras_1.gif",
+                "numero": 1
+            },
+            {
+                "Descripcion": "Grillar los vegetales con un toque de oliva por 2 o 3 minutos por lado. Retirar sobre papel absorbente para eliminar el exceso de humedad.",
+                "imagen": "Lasaña de Verduras/lasana_verduras_2.gif",
+                "numero": 2
+            },
+            {
+                "Descripcion": "En un bowl mezclar la ricota con el parmesano y el huevo hasta lograr una preparacion homogenea",
+                "imagen": "Lasaña de Verduras/lasana_verduras_3.gif",
+                "numero": 2
+            },
+            {
+                "Descripcion": "En placa alta ir intercalando salsa, vegetales grillados, la mezcla de ricota y mozzarella hasta agotar los ingredientes (reservar un poco de mozzarella para más adelante).",
+                "imagen": "Lasaña de Verduras/lasana_verduras_4.gif",
+                "numero": 3
+            },
+            {
+                "Descripcion": "Tapar con papel aluminio y cocinar en horno a 180ª precalentado por 30 minutos. Pasado ese tiempo quitar el papel aluminio y cocinar 20 minutos más.",
+                "imagen": "Lasaña de Verduras/lasana_verduras_5.gif",
+                "numero": 4
+            },
+            {
+                "Descripcion": "Luego colocar mozzarella sobre la superficie y llevar 5 minutos hasta gratinar.",
+                "imagen": "Lasaña de Verduras/lasana_verduras_6.gif",
+                "numero": 4
+            }
+        ]
+    },
+    {
+        "id": "54498c85-c784-453a-b048-d06803d7bd4c",
+        "nombre": "Tabletas de Cheesecake Heladas",
+        "ingredientes": [
+            "1 taza de fresas",
+            "450 gr. de queso crema",
+            "1/2 taza de azúcar impalpable",
+            "1 taza de crema batida",
+            "11 1/2 tazas de galletas de vainilla",
+            "6 cdas de mantequilla",
+            "200 gr de chips de chocolate",
+            "1 cda de aceite de coco"
+        ],
+        "pasos": [
+            {
+                "Descripcion": "Mezclar en un bowl el queso crema, el azúcar y la esencia de vainilla. Después mezclar las fresas trituradas. Una vez incorporado agregar la crema batida y crema agria.",
+                "imagen": "Tabletas de Cheesecake Heladas/tabletas_cheesecake_1.gif",
+                "numero": 1
+            },
+            {
+                "Descripcion": "En otro bowl mezclar las galletas con la manteca y colocarlos en un molde con papel manteca. Agregar la mezcla de cheesecake por encima y llevar al freezer hasta que quede firme.",
+                "imagen": "Tabletas de Cheesecake Heladas/tabletas_cheesecake_2.gif",
+                "numero": 2
+            },
+            {
+                "Descripcion": "Cortar en cuadrados y derretir el chocolate con el aceite de coco y remojar los bocadis. Llevar a la heladera por 10 minutos.",
+                "imagen": "Tabletas de Cheesecake Heladas/tabletas_cheesecake_3.gif",
+                "numero": 3
+            }
+        ]
+    },
+    {
+        "id": "8bc0ddb6-79b3-4a83-b735-41941c3c3362",
+        "nombre": "Croquetas de Papa",
+        "ingredientes": [
+            "1 kg. de puré de papa",
+            "100 gr. de panceta ahumada",
+            "2 huevos",
+            "100 gr. de mozzarella en cubos",
+            "C/n harina",
+            "C/n huevos batidos",
+            "C/n pan rallado",
+            "Sal, pimienta, perejil y aceite para freír."
+        ],
+        "pasos": [
+            {
+                "Descripcion": "En un bowl mezclar el puré de papas junto con los 2 huevos el perejil picado, sal y pimienta.",
+                "imagen": "Croquetas de Papa/croquetas_papa_1.gif",
+                "numero": 1
+            },
+            {
+                "Descripcion": "Cortar la panceta ahumada en tacos y sellar en sartén hasta dorar.",
+                "imagen": "Croquetas de Papa/croquetas_papa_2.gif",
+                "numero": 2
+            },
+            {
+                "Descripcion": "Formar las bombas con el puré y rellenando con mozzarella y un taco de panceta dorada.",
+                "imagen": "Croquetas de Papa/croquetas_papa_3.gif",
+                "numero": 3
+            },
+            {
+                "Descripcion": "Pasar por harina, huevo batido y pan rallado.",
+                "imagen": "Croquetas de Papa/croquetas_papa_4.gif",
+                "numero": 4
+            },
+            {
+                "Descripcion": "Llevar a freír en abundante aceite hasta dorar.",
+                "imagen": "Croquetas de Papa/croquetas_papa_5.gif",
+                "numero": 5
+            }
+        ]
     }
 ]
