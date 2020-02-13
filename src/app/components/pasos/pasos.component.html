@@ -14,8 +14,17 @@
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li *ngIf="receta.pasos[2]" data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li *ngIf="receta.pasos[3]" data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li *ngIf="receta.pasos[4]" data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          <li *ngIf="receta.pasos[5]" data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+          <li *ngIf="receta.pasos[6]" data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+          <li *ngIf="receta.pasos[7]" data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+          <li *ngIf="receta.pasos[8]" data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+          <li *ngIf="receta.pasos[9]" data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+          <li *ngIf="receta.pasos[10]" data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+          <li *ngIf="receta.pasos[11]" data-target="#carouselExampleIndicators" data-slide-to="12"></li>
+          <li *ngIf="receta.pasos[12]" data-target="#carouselExampleIndicators" data-slide-to="13"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -47,7 +56,7 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div *ngIf="receta.pasos[2]" class="carousel-item">
             <div class="row">
               <div class="col-md-6">
                 <img style="width: 450px; height: 450px; float: right; margin-top: 20px;"
@@ -61,7 +70,7 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div *ngIf="receta.pasos[3]" class="carousel-item">
             <div class="row">
               <div class="col-md-6">
                 <img style="width: 450px; height: 450px; float: right; margin-top: 20px;"
@@ -75,7 +84,132 @@
               </div>
             </div>
           </div>
-
+          <div *ngIf="receta.pasos[4]" class="carousel-item">
+            <div class="row">
+              <div class="col-md-6">
+                <img style="width: 450px; height: 450px; float: right; margin-top: 20px;"
+                  src="../../../assets/images/recetas/{{receta.pasos[3].imagen}}" alt="{{receta.pasos[4].numero}}">
+              </div>
+              <div class="col-md-6">
+                <span style="padding: 50px 50px; font-size: 20px;">
+                  <h3 style="text-align:center">Paso {{receta.pasos[4].numero}}</h3><br>
+                  {{receta.pasos[4].Descripcion}}
+                </span>
+              </div>
+            </div>
+          </div>
+          <div *ngIf="receta.pasos[5]" class="carousel-item">
+            <div class="row">
+              <div class="col-md-6">
+                <img style="width: 450px; height: 450px; float: right; margin-top: 20px;"
+                  src="../../../assets/images/recetas/{{receta.pasos[3].imagen}}" alt="{{receta.pasos[5].numero}}">
+              </div>
+              <div class="col-md-6">
+                <span style="padding: 50px 50px; font-size: 20px;">
+                  <h3 style="text-align:center">Paso {{receta.pasos[5].numero}}</h3><br>
+                  {{receta.pasos[5].Descripcion}}
+                </span>
+              </div>
+            </div>
+          </div>
+          <div *ngIf="receta.pasos[6]" class="carousel-item">
+            <div class="row">
+              <div class="col-md-6">
+                <img style="width: 450px; height: 450px; float: right; margin-top: 20px;"
+                  src="../../../assets/images/recetas/{{receta.pasos[6].imagen}}" alt="{{receta.pasos[6].numero}}">
+              </div>
+              <div class="col-md-6">
+                <span style="padding: 50px 50px; font-size: 20px;">
+                  <h3 style="text-align:center">Paso {{receta.pasos[6].numero}}</h3><br>
+                  {{receta.pasos[6].Descripcion}}
+                </span>
+              </div>
+            </div>
+          </div>
+          <div *ngIf="receta.pasos[7]" class="carousel-item">
+            <div class="row">
+              <div class="col-md-6">
+                <img style="width: 450px; height: 450px; float: right; margin-top: 20px;"
+                  src="../../../assets/images/recetas/{{receta.pasos[7].imagen}}" alt="{{receta.pasos[7].numero}}">
+              </div>
+              <div class="col-md-6">
+                <span style="padding: 50px 50px; font-size: 20px;">
+                  <h3 style="text-align:center">Paso {{receta.pasos[7].numero}}</h3><br>
+                  {{receta.pasos[7].Descripcion}}
+                </span>
+              </div>
+            </div>
+          </div>
+          <div *ngIf="receta.pasos[8]" class="carousel-item">
+            <div class="row">
+              <div class="col-md-6">
+                <img style="width: 450px; height: 450px; float: right; margin-top: 20px;"
+                  src="../../../assets/images/recetas/{{receta.pasos[8].imagen}}" alt="{{receta.pasos[8].numero}}">
+              </div>
+              <div class="col-md-6">
+                <span style="padding: 50px 50px; font-size: 20px;">
+                  <h3 style="text-align:center">Paso {{receta.pasos[8].numero}}</h3><br>
+                  {{receta.pasos[8].Descripcion}}
+                </span>
+              </div>
+            </div>
+          </div>
+          <div *ngIf="receta.pasos[9]" class="carousel-item">
+            <div class="row">
+              <div class="col-md-6">
+                <img style="width: 450px; height: 450px; float: right; margin-top: 20px;"
+                  src="../../../assets/images/recetas/{{receta.pasos[9].imagen}}" alt="{{receta.pasos[9].numero}}">
+              </div>
+              <div class="col-md-6">
+                <span style="padding: 50px 50px; font-size: 20px;">
+                  <h3 style="text-align:center">Paso {{receta.pasos[9].numero}}</h3><br>
+                  {{receta.pasos[9].Descripcion}}
+                </span>
+              </div>
+            </div>
+          </div>
+          <div *ngIf="receta.pasos[10]" class="carousel-item">
+            <div class="row">
+              <div class="col-md-6">
+                <img style="width: 450px; height: 450px; float: right; margin-top: 20px;"
+                  src="../../../assets/images/recetas/{{receta.pasos[10].imagen}}" alt="{{receta.pasos[10].numero}}">
+              </div>
+              <div class="col-md-6">
+                <span style="padding: 50px 50px; font-size: 20px;">
+                  <h3 style="text-align:center">Paso {{receta.pasos[10].numero}}</h3><br>
+                  {{receta.pasos[10].Descripcion}}
+                </span>
+              </div>
+            </div>
+          </div>
+          <div *ngIf="receta.pasos[11]" class="carousel-item">
+            <div class="row">
+              <div class="col-md-6">
+                <img style="width: 450px; height: 450px; float: right; margin-top: 20px;"
+                  src="../../../assets/images/recetas/{{receta.pasos[11].imagen}}" alt="{{receta.pasos[11].numero}}">
+              </div>
+              <div class="col-md-6">
+                <span style="padding: 50px 50px; font-size: 20px;">
+                  <h3 style="text-align:center">Paso {{receta.pasos[11].numero}}</h3><br>
+                  {{receta.pasos[11].Descripcion}}
+                </span>
+              </div>
+            </div>
+          </div>
+          <div *ngIf="receta.pasos[12]" class="carousel-item">
+            <div class="row">
+              <div class="col-md-6">
+                <img style="width: 450px; height: 450px; float: right; margin-top: 20px;"
+                  src="../../../assets/images/recetas/{{receta.pasos[12].imagen}}" alt="{{receta.pasos[12].numero}}">
+              </div>
+              <div class="col-md-6">
+                <span style="padding: 50px 50px; font-size: 20px;">
+                  <h3 style="text-align:center">Paso {{receta.pasos[12].numero}}</h3><br>
+                  {{receta.pasos[12].Descripcion}}
+                </span>
+              </div>
+            </div>
+          </div>
           <!--div *ngFor="let rc of receta.pasos; first as isFirst; trackBy: trackElement">
             <div *ngIf="!isFirst">
               <div class="carousel-item">

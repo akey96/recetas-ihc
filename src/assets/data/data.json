@@ -394,5 +394,113 @@
                 "numero": 5
             }
         ]
+    },
+    {
+        "id": "77498c85-c784-453a-b048-d06803d7bd4c",
+        "nombre": "Milanesas a la Napolitana",
+        "ingredientes": [
+            "1/2 kg milanesas de carne",
+            "500 ml de salsa de tomate",
+            "200 gr de jamón cocido",
+            "500 gr de mozzarella rallada",
+            "1 kg de papas",
+            "2 cucharadas de manteca",
+            "100 ml de leche",
+            "Sal, pimienta, nuez moscada y orégano",
+            "Aceite para freír"
+        ],
+        "pasos": [
+            {
+                "Descripcion": "Freír las milanesas hasta que queden bien doradas y retirar sobre papel absorbente para eliminar el exceso de aceite.",
+                "imagen": "Milanesas a la Napolitana/milanesas_napolitana_1.gif",
+                "numero": 1
+            },
+            {
+                "Descripcion": "Llevarlas a una placa para horno y cubrir con la salsa de tomate, fetas de jamón y la mozzarella rallada.",
+                "imagen": "Milanesas a la Napolitana/milanesas_napolitana_2.gif",
+                "numero": 2
+            },
+            {
+                "Descripcion": "Espolvorear con oregano y llevar a gratinar a horno medio (180°) hasta que funda el queso.",
+                "imagen": "Milanesas a la Napolitana/milanesas_napolitana_3.gif",
+                "numero": 3
+            },
+            {
+                "Descripcion": "Hacer un puré con las papas, y pisar junto con la manteca, la leche y condimentar con sal, pimienta y nuez moscada.",
+                "imagen": "Milanesas a la Napolitana/milanesas_napolitana_4.gif",
+                "numero": 4
+            }
+        ]
+    },
+    {
+        "id": "40abcbb4-9837-46c3-9c91-254ebbf2b0de",
+        "nombre": "Milanesa de Carne Rellena",
+        "ingredientes": [
+            "1 kg. de nalga",
+            "3 choclos",
+            "1 cebolla",
+            "1 morron",
+            "2 unidades de puerro",
+            "300 ml. de leche",
+            "1 cda. de almidón de maíz",
+            "400 gr. de pan rallado (o puedes usar Panko si lo deseas)",
+            "3 huevos",
+            "200 gr. de queso gruyere rallado",
+            "3 papas",
+            "1 ajo",
+            "Perejil"
+        ],
+        "pasos": [
+            {
+                "Descripcion": "Rallar choclos y saltearlos en una sartén con la cebolla el puerro y el morrón rojo.",
+                "imagen": "Milanesa de Carne Rellena/milanesa_de_carne_rellena_1.gif",
+                "numero": 1
+            },
+            {
+                "Descripcion": "Colocar la leche y el almidón hasta formar una salsa cremosa.",
+                "imagen": "Milanesa de Carne Rellena/milanesa_de_carne_rellena_2.gif",
+                "numero": 2
+            },
+            {
+                "Descripcion": "Incorporar el queso rallado a la salsa.",
+                "imagen": "Milanesa de Carne Rellena/milanesa_de_carne_rellena_3.gif",
+                "numero": 3
+            },
+            {
+                "Descripcion": "Rellenar las nalgas con la salsa de choclo.",
+                "imagen": "Milanesa de Carne Rellena/milanesa_de_carne_rellena_4.gif",
+                "numero": 4
+            },
+            {
+                "Descripcion": "Pasar por huevo batido con ajo y perejil.",
+                "imagen": "Milanesa de Carne Rellena/milanesa_de_carne_rellena_5.gif",
+                "numero": 5
+            },
+            {
+                "Descripcion": "Pasar por pan rallado.",
+                "imagen": "Milanesa de Carne Rellena/milanesa_de_carne_rellena_6.gif",
+                "numero": 6
+            },
+            {
+                "Descripcion": "Cortar las papas bien finitas estilo pai.",
+                "imagen": "Milanesa de Carne Rellena/milanesa_de_carne_rellena_7.gif",
+                "numero": 7
+            },
+            {
+                "Descripcion": "Calentar aceite y freír las milanesas rellenas.",
+                "imagen": "Milanesa de Carne Rellena/milanesa_de_carne_rellena_8.gif",
+                "numero": 8
+            },
+            {
+                "Descripcion": "Freír las papas.",
+                "imagen": "Milanesa de Carne Rellena/milanesa_de_carne_rellena_9.gif",
+                "numero": 9
+            },
+            {
+                "Descripcion": "Terminar con un huevo frito arriba de las papas.",
+                "imagen": "Milanesa de Carne Rellena/milanesa_de_carne_rellena_10.gif",
+                "numero": 10
+            }
+        ]
     }
 ]
