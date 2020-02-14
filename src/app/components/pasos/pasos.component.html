@@ -12,19 +12,19 @@
 
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li *ngIf="receta.pasos[2]" data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          <li *ngIf="receta.pasos[3]" data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-          <li *ngIf="receta.pasos[4]" data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-          <li *ngIf="receta.pasos[5]" data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-          <li *ngIf="receta.pasos[6]" data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-          <li *ngIf="receta.pasos[7]" data-target="#carouselExampleIndicators" data-slide-to="8"></li>
-          <li *ngIf="receta.pasos[8]" data-target="#carouselExampleIndicators" data-slide-to="9"></li>
-          <li *ngIf="receta.pasos[9]" data-target="#carouselExampleIndicators" data-slide-to="10"></li>
-          <li *ngIf="receta.pasos[10]" data-target="#carouselExampleIndicators" data-slide-to="11"></li>
-          <li *ngIf="receta.pasos[11]" data-target="#carouselExampleIndicators" data-slide-to="12"></li>
-          <li *ngIf="receta.pasos[12]" data-target="#carouselExampleIndicators" data-slide-to="13"></li>
+          <span>p-1<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li></span>
+          <span>p-2<li data-target="#carouselExampleIndicators" data-slide-to="1"></li></span>
+          <span *ngIf="receta.pasos[2]">p-3<li data-target="#carouselExampleIndicators" data-slide-to="2"></li></span>
+          <span *ngIf="receta.pasos[3]">p-4<li data-target="#carouselExampleIndicators" data-slide-to="3"></li></span>
+          <span *ngIf="receta.pasos[4]">p-5<li data-target="#carouselExampleIndicators" data-slide-to="4"></li></span>
+          <span *ngIf="receta.pasos[5]">p-6<li data-target="#carouselExampleIndicators" data-slide-to="5"></li></span>
+          <span *ngIf="receta.pasos[6]">p-7<li data-target="#carouselExampleIndicators" data-slide-to="6"></li></span>
+          <span *ngIf="receta.pasos[7]">p-8<li data-target="#carouselExampleIndicators" data-slide-to="7"></li></span>
+          <span *ngIf="receta.pasos[8]">P-9<li data-target="#carouselExampleIndicators" data-slide-to="8"></li></span>
+          <span *ngIf="receta.pasos[9]">P-10<li data-target="#carouselExampleIndicators" data-slide-to="9"></li></span>
+          <span *ngIf="receta.pasos[10]">p-11<li data-target="#carouselExampleIndicators" data-slide-to="10"></li></span>
+          <span *ngIf="receta.pasos[11]">p-12<li data-target="#carouselExampleIndicators" data-slide-to="11"></li></span>
+          <span *ngIf="receta.pasos[12]">p-13<li data-target="#carouselExampleIndicators" data-slide-to="12"></li></span>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
