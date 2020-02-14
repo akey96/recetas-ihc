@@ -4,26 +4,27 @@
       <h1 class="text-center"><strong>{{this.receta.nombre}}</strong></h1>
       <h2 class="text-center"> <img class="imagen-pequena" src="/assets/images/velocimetro.svg"> Medio | 35 min <img
           class="imagen-pequena" src="/assets/images/reloj.svg"></h2>
+      <h6 class="text-center">Leer Ingredientes<img
+          class="imagen-mas-pequena" src="/assets/images/sonido.png"></h6>
       <br>
       <h3><strong>Ingredientes:</strong></h3>
       <br>
-      <ul  class="row">
-        <div *ngFor="let rc of receta.ingredientes; index as i"  class="col-md-6">
-          <li *ngIf="i<receta.ingredientes.length/2" >{{rc}}</li>
+      <ul class="row">
+        <div *ngFor="let rc of receta.ingredientes; index as i" class="col-md-6">
+          <li *ngIf="i<receta.ingredientes.length/2">{{rc}}</li>
         </div>
-        
-        <div *ngFor="let rc of receta.ingredientes; index as i"  class="col-md-6">
-          <li *ngIf="i>receta.ingredientes.length/2" >{{rc}}</li>
+
+        <div *ngFor="let rc of receta.ingredientes; index as i" class="col-md-6">
+          <li *ngIf="i>receta.ingredientes.length/2">{{rc}}</li>
         </div>
-      
+
 
       </ul>
     </div>
     <div class="col-md-5">
       ​<picture>
         <img style="width: 550px; height: 500px; float: right;"
-           src="/assets/images/recetas/{{this.receta.pasos[0].imagen}}"
-          class="img-fluid img-thumbnail" alt="...">
+          src="/assets/images/recetas/{{this.receta.pasos[0].imagen}}" class="img-fluid img-thumbnail" alt="...">
       </picture>
       <!-- <img src="https://img-global.cpcdn.com/recipes/b4e91edc72de0781/400x400cq70/photo.jpg" alt="..." class="img-thumbnail"> -->
     </div>
