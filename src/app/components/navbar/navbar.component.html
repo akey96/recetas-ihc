@@ -1,51 +1,69 @@
 <nav class="navbar fixed-top  navbar-expand-lg navbar-dark bg-dark">
- 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse row" id="navbarSupportedContent">
-      <div class="col clearfix button-nav">
-        <div class="float-left"> <button class="btn btn-outline-success my-2 my-sm-0">Manos libres</button></div>
-      <div class="float-right"> <button id="tutorial" class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#exampleModalCenter">Abrir tutorial</button></div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse row" id="navbarSupportedContent">
+    <div class="col clearfix button-nav">
+      <div class="float-left"> <button class="btn btn-outline-primary active my-2 my-sm-0">Manos libres</button></div>
+      <div class="float-right"> <button id="tutorial" class="btn btn-outline-success active my-2 my-sm-0" data-toggle="modal"
+          data-target="#exampleModalCenter">Ver tutorial</button></div>
     </div>
-      
-      
-    </div>
-  </nav>
 
 
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  </div>
+</nav>
+
+
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle">Tutorial</h5>
-        <button id="cerrar" type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+        <button id="cerrar" type="button" class="close" data-dismiss="modal" aria-label="Close"><h5>Salir 
+          <span aria-hidden="true">&times;</span></h5>
         </button>
       </div>
-      <div class="modal-body">
-        <div class="alert alert-success" role="alert">
-          <p style="font-weight: bold; color: #073a4b; text-align: center;">Comandos de voz</p>
-          <p>Para abrir tutorial > <span style="font-weight: bold;">“Abrir tutorial”</span></p>
-          <p>Para cerrar tutorial > <span style="font-weight: bold;">“Salir tutorial”</span></p>
-          <p>Para buscar receta > <span style="font-weight: bold;">“Buscar [Nombre de la receta]”></span></p>
-          <p>Para borrar una busqueda > <span style="font-weight: bold;">“Limpiar busqueda”</span></p>
-          <p>Para abrir siguiente hoja de resultados > <span style="font-weight: bold;">"Pagina Siguiente"</span></p>
-          <p>Para abrir anterior hoja de resultados > <span style="font-weight: bold;">"Pagina Anterior"</span></p>
-          <p>Para abrir una receta > <span style="font-weight: bold;">"Abrir [Nombre de la receta]"</span></p>
-          <p>Para ir atras > <span style="font-weight: bold;">“Atras”</span></p>
-          <p style="color: #46555a;"><s>Para abrir una receta por numero de Id de receta > <span style="font-weight: bold;">"Abrir receta [Numero de id]"</span></s></p>
-          <p>Para que lea las ingredientes > "Leer ingredientes"</p>
-          <p>Para parar la lectura > “Alto”</p>
-          <p style="color: #46555a;"><s>Para que lea un paso > <span style="font-weight: bold;">"Leer paso [Numero de paso]"</span></s></p>
-          <p style="color: #46555a;"><s>Para que muestre un paso > <span style="font-weight: bold;">"Abrir paso [numero de paso]"</span></s></p>
-          <p style="color: #46555a;"><s>Para que abra un paso > <span style="font-weight: bold;">"Abrir paso [Numero de paso]"</span></s></p>
-          <p style="color: #46555a;"><s>Para ver los ingredientes > <span style="font-weight: bold;">"Ver ingredientes"</span></s></p>
+      <div class="modal-body col-md-12">
+        <h6>Busqueda</h6>
+        <div class="alert alert-success p-1" role="alert">
+          <p style="color: #073a4b;">Para buscar receta > <strong>Buscar [Nombre de la receta]</strong></p>
+        </div>
+        <div class="alert alert-success mt-1 p-1" role="alert">
+          <p style="color: #073a4b;">Para borrar una busqueda > <strong>Limpiar busqueda</strong></p>
+        </div>
+        <div class="alert alert-success mt-1 p-1" role="alert">
+          <p style="color: #073a4b;">Para abrir siguiente hoja de resultados > <strong>Pagina Siguiente</strong></p>
+        </div>
+        <div class="alert alert-success p-1" role="alert">
+          <p style="color: #073a4b;">Para abrir anterior hoja de resultados > <strong>Pagina Anterior</strong></p>
+        </div>
+        <h6>Receta</h6>
+        <div class="alert alert-success p-1" role="alert">
+          <p style="color: #073a4b;">Para ir atras > <strong>Atras</strong></p>
+        </div>
+        <h6>Ingredientes</h6>
+        <div class="alert alert-success p-1" role="alert">
+          <p style="color: #073a4b;">Para que lea las ingredientes > <strong>Leer ingredientes</strong></p>
+        </div>
+        <div class="alert alert-success p-1" role="alert">
+          <p style="color: #073a4b;">Para parar la lectura > <strong>Alto</strong></p>
+        </div>
+        <h6>Futuros Comandos</h6>
+        <div class="alert alert-success p-1" role="alert">
+          <p style="color: #46555a;"><s>Para abrir una receta por numero de Id de receta > "Abrir receta [Numero de
+              id]"</s></p>
+          <p style="color: #46555a;"><s>Para que lea un paso > "Leer paso [Numero de paso]"</s></p>
+          <p style="color: #46555a;"><s>Para que muestre un paso > "Abrir paso [numero de paso]"</s></p>
+          <p style="color: #46555a;"><s>Para que abra un paso > "Abrir paso [Numero de paso]"</s></p>
+          <p style="color: #46555a;"><s>Para ver los ingredientes > "Ver ingredientes"</s></p>
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir tutorial</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
       </div>
     </div>
   </div>

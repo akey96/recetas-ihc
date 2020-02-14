@@ -14,7 +14,7 @@ export class NavbarComponent implements OnInit {
   ngOnInit() {
     ArtyomUtil.getInstance().addCommands([
       {
-				indexes:["ver tutorial", 'salir tutorial'],
+				indexes:["tutorial", 'salir'],
 				action: (i) => {
           if(i==0){
             $('#tutorial').click();       
