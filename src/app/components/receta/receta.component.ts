@@ -29,38 +29,38 @@ export class RecetaComponent implements OnInit {
       });
     }
 
-  leerIngredientes(){
-    let ingredientes = Array.from(this.receta.ingredientes);
-    for(let i=0; i<ingredientes.length; i++){
-      ArtyomUtil.getInstance().getJarvis().say(ingredientes[i]);
-    }
-  }
-
+  
   ngOnInit() {
-    setTimeout(() => {
-      ArtyomUtil.getInstance().start();
-    }, 250);
+    
 
     ArtyomUtil.getInstance().addCommands([
       {
-				indexes:["leer ingredientes", 'atrás', 'alto', 'siguiente', 'anterior', 'ingredientes', 'preparación'],
+				indexes:["leer ingredientes", 'atrás', 'inicio', 'alto', 'siguiente', 'anterior', 'ingredientes', 'preparación', 'leer paso','leer pasó' ],
 				action: (i) => {
           if(i==0){
             console.log('entro a leer ingredientes', this.receta);
             ArtyomUtil.getInstance().sayArray(this.receta.ingredientes);          
-          } else if (i==1){
+          } else if (i==1 || i==2){
             window.location = '';
-          } else if (i==2){
+          } else if (i==3){
             ArtyomUtil.getInstance().getJarvis().shutUp();
-          }else if (i==3){
+          }else if (i==4){
             $('#next').click();
-          } else if (i==4){
-            $('#previous').click();
           } else if (i==5){
-            location.href = window.location.href.split('#')[0]+"#ingredientes"
+            $('#previous').click();
           } else if (i==6){
+            location.href = window.location.href.split('#')[0]+"#ingredientes"
+          } else if (i==7){
             location.href = window.location.href.split('#')[0]+"#pasos"
+          } else if (i==8 || i==9){
+            let id_c = parseInt($('.carousel-indicators').find('.active')[0].innerText);
+            setTimeout(() => {
+              ArtyomUtil.getInstance().say(this.receta.pasos[id_c-1].Descripcion);
+              
+            },400);
+            
           }
+
           
         }
       }]);

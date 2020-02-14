@@ -7,23 +7,34 @@ import { ArtyomUtil } from '../../utils/artyom.util';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
-
+  isActive: boolean;
   @Input() receta: any;
   constructor() { }
 
   ngOnInit() {
+    this.isActive=false;
     ArtyomUtil.getInstance().addCommands([
       {
-				indexes:["tutorial", 'salir'],
+				indexes:["tutorial", 'salir tutorial'],
 				action: (i) => {
           if(i==0){
             $('#tutorial').click();       
           } else if (i==1){
             $('#cerrar').click();
           }
-          
         }
       }]);
+  }
+  activarMicrofono(){
+    if(this.isActive){
+      ArtyomUtil.getInstance().getJarvis().fatality();
+      this.isActive = false;
+    } else {
+      setTimeout(() => {
+        ArtyomUtil.getInstance().start();
+        this.isActive = true;
+      }, 250);
+    }
   }
 
 }
