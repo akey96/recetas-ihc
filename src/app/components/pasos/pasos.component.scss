@@ -32,3 +32,11 @@ background: #46555a;
   color: #eee;
   font-size: 20px;
 }
+
+.button-transparent {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+}

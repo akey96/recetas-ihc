@@ -43,7 +43,7 @@ export class RecetaComponent implements OnInit {
 
     ArtyomUtil.getInstance().addCommands([
       {
-				indexes:["leer ingredientes", 'atrás', 'alto'],
+				indexes:["leer ingredientes", 'atrás', 'alto', 'siguiente', 'anterior', 'ingredientes', 'preparación'],
 				action: (i) => {
           if(i==0){
             console.log('entro a leer ingredientes', this.receta);
@@ -52,6 +52,14 @@ export class RecetaComponent implements OnInit {
             window.location = '';
           } else if (i==2){
             ArtyomUtil.getInstance().getJarvis().shutUp();
+          }else if (i==3){
+            $('#next').click();
+          } else if (i==4){
+            $('#previous').click();
+          } else if (i==5){
+            location.href = window.location.href.split('#')[0]+"#ingredientes"
+          } else if (i==6){
+            location.href = window.location.href.split('#')[0]+"#pasos"
           }
           
         }
