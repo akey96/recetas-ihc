@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { ArtyomUtil } from '../../utils/artyom.util';
 
 @Component({
   selector: 'app-navbar',
@@ -11,6 +12,18 @@ export class NavbarComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    ArtyomUtil.getInstance().addCommands([
+      {
+				indexes:["ver tutorial", 'salir tutorial'],
+				action: (i) => {
+          if(i==0){
+            $('#tutorial').click();       
+          } else if (i==1){
+            $('#cerrar').click();
+          }
+          
+        }
+      }]);
   }
 
 }
